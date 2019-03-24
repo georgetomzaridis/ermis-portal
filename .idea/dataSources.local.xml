@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@172.168.1.121" uuid="7fde96ab-f324-4438-b245-c93a63dc6829">
+      <database-info product="MySQL" version="10.1.37-MariaDB-0+deb9u1" jdbc-version="4.2" driver-name="MariaDB connector/J" driver-version="2.2.1" dbms="MYSQL" exact-version="10.1.37" exact-driver-version="2.2">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>geotom</user-name>
+      <introspection-schemas>*:*</introspection-schemas>
+    </data-source>
+  </component>
+</project>
