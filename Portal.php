@@ -10,17 +10,17 @@ class Portal
 {
     function __construct()
     {
-        $this->servername = "172.168.1.121";
-        $this->username = "pithia";
-        $this->password = 'hLFQnx5vmm6Syq7F';
-        $this->dbname = "pithia";
+        $this->servername = "HOST";
+        $this->username = "USERNAME";
+        $this->password = 'PASSWORD';
+        $this->dbname = "DBNAME";
     }
 
     function getAppsList(){
         $conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
         // Check connection
         if ($conn->connect_error) {
-           header("Location: http://apps.3gel.network/accesserror.html");
+           header("Location: ACCESS_ERROR_URL");
            exit();
         }
         mysqli_set_charset($conn,"utf8");
